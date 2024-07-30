@@ -8,7 +8,7 @@ import {
 import { useEffect, useState } from "react"
 
 export default function Experience() {
-  const [matcapTexture] = useMatcapTexture("CBCBCB_595959_8C8C8C_747474", 256)
+  const [matcapTexture] = useMatcapTexture("63584B_E6E0D6_A8A092_BFB6A8", 256)
 
   function useResponsiveFOV() {
     const [fov, setFov] = useState(() =>
@@ -18,11 +18,11 @@ export default function Experience() {
     useEffect(() => {
       const handleResize = () => {
         if (window.innerWidth <= 768) {
-          setFov(100); // Mobile
+          setFov(100); 
         } else if (window.innerWidth <= 1380) {
-          setFov(80); // Tablette
+          setFov(80); 
         } else {
-          setFov(52); // Desktop
+          setFov(52); 
         }
       };
 
@@ -52,7 +52,7 @@ export default function Experience() {
           bevelOffset={0}
           bevelSegments={5}
         >
-          Ubisoft Legends
+          Ubisoft Esport
           <meshMatcapMaterial matcap={matcapTexture} />
         </Text3D>
       </Center>

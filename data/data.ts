@@ -40,26 +40,26 @@ export const memories = [
 export const news = [
 	{
 	  id: 1,
-	  title: "Article 1",
-	  image: "/path/to/image1.jpg",
+	  title: "Rainbow Six Siege Montreal Major",
+	  image: "/new1.webp",
 	  link: "https://www.ubisoft.com/fr-ca/esports/rainbow-six/siege/news-updates/3B2zPQqqn23gVCY38zHrzK/welcome-the-blast-r6-montreal-major"
 	},
 	{
 	  id: 2,
-	  title: "Article 2",
-	  image: "/path/to/image2.jpg",
+	  title: "L'équipe féminine de Rainbow Six Siege",
+	  image: "/new2.webp",
 	  link: "https://www.ubisoft.com/fr-ca/esports/rainbow-six/siege/news-updates/42jXCkmSuWevvNQSMAnpjh/hub-woman-scenario"
 	},
 	{
 	  id: 3,
-	  title: "Article 3",
-	  image: "/path/to/image3.jpg",
+	  title: "Brazil Super Cup",
+	  image: "/new3.webp",
 	  link: "https://www.ubisoft.com/fr-ca/esports/rainbow-six/siege/news-updates/2z87rN3MYTuwYxbq3ipt9N/league-start-and-brazil-super-cup-mark-the-beginning-of-brazils-tier-2-competitions"
 	},
 	{
 	  id: 4,
-	  title: "Article 4",
-	  image: "/path/to/image4.jpg",
+	  title: "Compétition générale d'esports",
+	  image: "/new4.webp",
 	  link: "https://examplhttps://www.ubisoft.com/fr-ca/esports/rainbow-six/siege/news-updates/3B2zPQqqn23gVCY38zHrzK/welcome-the-blast-r6-montreal-majore.com/article4"
 	}
   ];
